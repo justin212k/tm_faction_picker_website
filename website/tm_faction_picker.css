@@ -1,0 +1,17 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+div {
+	color: purple;
+}
+
+.t1 {
+	color: red;
+	margin: 1em 0;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="en"><head>TM faction picker
+<link rel="stylesheet" type="text/css" href="tm_faction_picker.css">
+<script src="tm_faction_picker.js"></script>
+</head>
+<body>
+
+<p />
+Input your snellman game: 
+<!-- 4pLeague_S30_D5L11_G5 has no darklings (useful for testing) -->
+<input id="game_id" size=50 value="4pLeague_S30_D5L11_G5"></input>
+<button type="button" onclick="fetchGameState()">Fetch game state</button>
+<div id="game_state"></div>
+<button type="button" onclick="fetchRecommendedFaction()">Fetch recommended faction</button>
+<div class='t1' id="recommended_faction"></div>
+</body>
+</html>
