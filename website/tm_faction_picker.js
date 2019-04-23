@@ -1,4 +1,9 @@
+// todo: allow user to specify or modify game state
+// e.g. "what if darklings weren't picked. Would you suggest them given
+// the setup?"
 function fetchGameState() {
+  // todo: fetch pass bons, round bons, and already picked factions
+  // these are the inputs to the faction picker.
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
     if (xhr.readyState == 4 && xhr.status == 200) {
